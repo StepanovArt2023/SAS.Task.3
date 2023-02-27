@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>SAS.Task._3</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\main_bg.jpg" />
+    <None Remove="Images\task1.jpeg" />
+    <None Remove="Images\task2.jpg" />
+    <None Remove="Images\task3.jpg" />
+    <None Remove="Images\task4.jpeg" />
+    <None Remove="Images\task5.jpeg" />
+    <None Remove="Images\task6.jpg" />
+    <None Remove="Images\task7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.1.1" />
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="0.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\main_bg.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\task1.jpeg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\task2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\task3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\task4.jpeg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\task5.jpeg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\task6.jpg">
+      <CopyToOutputDirectory>s</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\task7.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
